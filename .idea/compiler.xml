@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="firstGit" />
+        <module name="jetty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="firstGit" target="1.5" />
+      <module name="jetty" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

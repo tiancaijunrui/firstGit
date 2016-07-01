@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/firstGit.iml" filepath="$PROJECT_DIR$/firstGit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty/jetty.iml" filepath="$PROJECT_DIR$/jetty/jetty.iml" />
     </modules>
   </component>
 </project>

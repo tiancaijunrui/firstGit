@@ -8,8 +8,9 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
-    <mvc:annotation-driven/>
-    <context:component-scan base-package="java"/>
+    <!--<mvc:annotation-driven/>-->
+    <!--<context:component-scan base-package="java"/>-->
+    <bean id="test1Action" class="test.test1.test1Action" scope="prototype"/>
 
 
 </beans>

@@ -25,8 +25,30 @@ ${number?string.bytes}
 </#if>
 <hr>
 <#list obj as index>
-    ${index!"0"}
+${index!"0"}
 <hr>
 </#list>
+
+
+<#--测试自定义一个宏，传入参数-->
+<#macro  test foo bar baaz>
+<span>test:${foo} + ${bar} = ${baaz}</span>
+</#macro>
+
+<@test foo = 4 bar = 3 baaz = 7 />
+
+<hr>
+<#--自定义一个方法，传入参数-->
+<#function avg p1 p2>
+    <#return (p1+p2)/2.0>
+</#function>
+
+${avg(10,20)}
+
+
+<h1>${user}自定义标签输出结果</h1><br/>
+<@label num=12 />
+
+
 </body>
 </html>

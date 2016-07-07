@@ -8,6 +8,7 @@
     <modules>
         <module>jetty</module>
         <module>threadTest</module>
+        <module>javaScriptTest</module>
     </modules>
     <name>firstGit Maven Webapp</name>
     <url>http://maven.apache.org</url>

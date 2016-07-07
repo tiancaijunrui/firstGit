@@ -1,4 +1,17 @@
 <html>
+<head>
+    <script type="text/javascript">
+        function fun() {
+            alert(typeof null);
+            alert(typeof demo());
+        }
+        function demo(){
+            alert("demo");
+        }
+
+    </script>
+
+</head>
 <body>
 <h2>Hello World!</h2>
 <#--测试freemarker-->
@@ -50,5 +63,10 @@ ${avg(10,20)}
 <@label num=12 />
 
 
+
+<#--javaScript typeOf-->
+<input type="button" value="click me!" onclick="fun()"/>
+
 </body>
+
 </html>

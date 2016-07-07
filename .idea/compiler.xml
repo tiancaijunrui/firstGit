@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="jetty" />
+        <module name="threadTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="firstGit" target="1.5" />
       <module name="jetty" target="1.5" />
+      <module name="threadTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

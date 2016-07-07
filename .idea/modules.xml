@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/firstGit.iml" filepath="$PROJECT_DIR$/firstGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/jetty/jetty.iml" filepath="$PROJECT_DIR$/jetty/jetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threadTest/threadTest.iml" filepath="$PROJECT_DIR$/threadTest/threadTest.iml" />
     </modules>
   </component>
 </project>

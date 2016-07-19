@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="javaScriptTest" />
         <module name="jetty" />
+        <module name="serializable" />
         <module name="threadTest" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="firstGit" target="1.5" />
       <module name="javaScriptTest" target="1.5" />
       <module name="jetty" target="1.5" />
+      <module name="serializable" target="1.5" />
       <module name="threadTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>

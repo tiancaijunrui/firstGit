@@ -9,6 +9,7 @@
         <module>jetty</module>
         <module>threadTest</module>
         <module>javaScriptTest</module>
+        <module>serializable</module>
     </modules>
     <name>firstGit Maven Webapp</name>
     <url>http://maven.apache.org</url>

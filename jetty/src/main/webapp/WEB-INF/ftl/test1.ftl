@@ -2,10 +2,19 @@
 <head>
     <script type="text/javascript">
         function fun() {
-            alert(typeof null);
-            alert(typeof demo());
+//            alert(typeof null);
+//            alert(typeof demo);
+            alert(undefined == null);
+//            true
+            alert(undefined === null);
+//            false
+            alert(typeof undefined == typeof null);
+//            false
+
+//            总结：== 比较的是值  ===比较的是数据类型和值
+
         }
-        function demo(){
+        function demo() {
             alert("demo");
         }
 
@@ -51,16 +60,6 @@ ${index!"0"}
 <@test foo = 4 bar = 3 baaz = 7 />
 
 <hr>
-<#--自定义一个方法，传入参数-->
-<#function avg p1 p2>
-    <#return (p1+p2)/2.0>
-</#function>
-
-${avg(10,20)}
-
-
-<h1>${user}自定义标签输出结果</h1><br/>
-<@label num=12 />
 
 
 
